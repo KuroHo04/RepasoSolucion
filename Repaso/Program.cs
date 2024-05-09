@@ -1,4 +1,6 @@
-﻿string miVariable;
+﻿using RepasoLib;
+
+string miVariable;
 miVariable = "Jose";
 string materia = "Estructura de Datos";
 //miVariable = string.Format("Hello: {0} {1}", miVariable, materia);
@@ -6,4 +8,5 @@ string materia = "Estructura de Datos";
 miVariable = $"Hello: {miVariable} {materia}" + 3;
 int x = 5;
 
-Console.WriteLine(miVariable);
+//Console.WriteLine(miVariable);
+Prueba.EscribirConsola(miVariable);
